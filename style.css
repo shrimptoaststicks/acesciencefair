@@ -1,0 +1,206 @@
+/* Viewport */
+@media screen and (max-width: 480px) {
+    .abtme1 {
+        text-align: center;
+    }
+    .abtme p {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    
+}
+body {
+    overflow-x: hidden;
+    background-color: #F0F8FA;
+	
+}
+/* Nav */
+#nav ul {
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: #63AFAD;
+}
+#nav li {
+  display: inline;
+  text-align: center;
+  margin: 0.4em;
+}
+
+#nav li a {
+  display: inline-block;
+  padding: 5px 5px;
+  color: #83C5BE;
+  text-align: center;
+  margin: 0.2em;
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  border-radius: 5px;
+  transition: background 0.5s, color 0.5s;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+  color: rgb(237, 106, 90);
+}
+/* Header */
+.title {
+    box-sizing: border-box;
+    color: #006D77;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+    padding: 25px;
+    background-color: ;
+    border-radius: 25px;
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.desc {
+    box-sizing: border-box;
+    color: #83C5BE;
+    text-align: center;
+}
+a {
+    box-sizing: border-box;
+    text-align: center;
+    color: #f4f3ee;
+    text-decoration: none;
+}
+h2 {
+    margin: 1.2em;
+    margin-top: 7em;
+}
+h3 {
+    margin-top: 50px;
+    margin: 30px;
+    color: #63AFAD;
+    font-family: 'Space Mono', monospace;
+}
+button {
+    color: #F0F8FA;
+    box-align: center;
+    background-color: #F3A068;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: 5px;
+    transition: background 0.8s;
+    font-family: 'Space Mono', monospace;
+}
+button:hover {
+    box-sizing: border-box;
+  background: #ED6A5A;
+  cursor: pointer;
+}
+/* Skills */
+.caption {
+    font-size: 24px;
+    color:#006D77;
+    padding:25px 0;
+    text-align: center;
+    border: none;
+    font-family: 'Lexend Mega', sans-serif;
+}
+#skills2 {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+    color: #F3A068;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    margin: 1em;
+}
+.skill p {
+    background-color: rgba(243, 160, 104, 0.1);
+    text-align: center;
+    margin: 2em;
+    border-radius: 4px;
+}
+.skill img {
+    width: 50%;
+    align-items: center;
+}
+/* About Me */
+.abtme1 {
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: 'Lexend Mega', sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+    color: #006D77;
+}
+.abtme {
+    font-family: 'Space Mono', monospace;
+    padding: 15px 0;
+    font-size: 20px;
+    color: #83C5BE;
+    text-align: center;
+    margin: 1em;
+}
+.abtme p {
+    box-sizing: border-box;
+    font-size: 22px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    background: linear-gradient(#edf6f9, rgba(248, 196, 181, 0.3));
+}
+/* Contact */
+.contact {
+    font-size: 24px;
+    color:#006D77;
+    padding:25px 0;
+    margin: 50px;
+    text-align: center;
+    border: none;
+    font-family: 'Lexend Mega', sans-serif;
+}
+/* Scroll */
+html {
+  scroll-behavior: smooth;
+}
+ 
+ a {
+  text-decoration: none;
+  color: #edf6f9;
+} 
+
+/* Contacts */
+#contacts {
+    margin: 1.5em;
+    font-family: 'Lexend Mega', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #006D77;
+}
+ul {
+    color: #42999B;
+}
+li {
+    list-style-type: none;
+    margin: 1.5em;
+}
+li a {
+    color: #42999B;
+    font-family: 'Lexend Mega', sans-serif;
+    transition: color 0.4s;
+}
+li a:hover {
+    color: #ED6A5A;
+
+}
+.contacts p {
+    font-family: 'Space Mono', monospace;
+    color: #ED6A5A;
+    background-color: rgba(239, 120, 87, 0.1);
+    border-radius: 5px;
+    font-size: 20px;
+}
