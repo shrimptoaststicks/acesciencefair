@@ -17,6 +17,32 @@ body {
     background-color: #F0F8FA;
 	
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  font-family: 'Space Mono', monospace;
+  /* Position the tooltip */
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 /* Nav */
 #nav ul {
   list-style-type: none;
@@ -56,8 +82,8 @@ body {
     margin-left: 10px;
     
     padding: 25px;
-    background-color: ;
-    border-radius: 25px;
+    background-color: rgba(237, 246, 249, 0.5);
+    border-radius: 2px;
     font-family: 'Lexend Mega', sans-serif;
     font-size: 20px;
     font-weight: lighter;
@@ -119,6 +145,7 @@ button:hover {
     margin: 1em;
 }
 .skill p {
+    font-size: large;
     background-color: rgba(243, 160, 104, 0.1);
     text-align: center;
     margin: 2em;
@@ -191,10 +218,11 @@ li {
 li a {
     color: #42999B;
     font-family: 'Lexend Mega', sans-serif;
-    transition: color 0.4s;
+    transition: color 0.4s, font-size 0.4s;
 }
-li a:hover {
+#contacts li a:hover {
     color: #ED6A5A;
+    font-size: larger;
 
 }
 .contacts p {
